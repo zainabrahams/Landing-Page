@@ -52,7 +52,7 @@ a {
     height: 500px;
     display: flex;
     align-items: center;
-    gap: 500px;
+    gap: 100px;
 }
 
 .s1text {
@@ -61,7 +61,7 @@ a {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 250px;
+    margin-left: 250px;
 }
 
 .s1main {
@@ -93,6 +93,7 @@ a {
     width: 600px;
     height: 300px;
     border-radius: 10px;
+    margin-right: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,29 +108,136 @@ a {
 main {
     background-color: white;
     height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .maintext {
     color: black;
     font-size: 24px;
     font-weight: 900px;
+    display: flex;
+    justify-content: center;
 }
 
+.boxes {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.box {
+    padding: 85px;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxtexts {
+    margin-top: 10px;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxtext {
+    height: 200px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
 
 /* Section 2*/
 
 
-
 .section2 {
-    background-color: green;
-    height: 500px
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.quote {
+    font-size: 36px;
+    opacity: 0.6;
+    font-style: italic;
+    width: 800px;
+    height: 150px;
+}
+
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 0 0 600px;
+}
+
+
+
+/* Section 3 */
+
+
+
 
 .section3 {
-    background-color: purple;
-    height: 500px
+    background: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.signup {
+    background: #3882f6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.signupwords {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupheader {
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 0 0 50px;
+}
+
+.signuptext {
+    color: #e5e7eb;
+    margin: 0 0 0 50px;
+}
+
+.signupbutton {
+    color: white;
+    background: #3882f6;
+    border: none;
+    outline: 1px solid white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
+/*footer */
+
+
 
 footer {
     color: #e5e7eb;
